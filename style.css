@@ -48,6 +48,15 @@
     color: rgb(161, 46, 119);
     margin-right: 100px !important;
 }
+.navbar-nav{
+    .nav-item{
+        .nav-link:hover{
+            color: aqua;
+            border: 1px solid mediumseagreen;
+            background: mediumseagreen;
+        }
+    }
+}
 
 .nav-item a{
     color: white;
@@ -61,10 +70,172 @@
 
 }
 
-.navpills .nav-link:hover, .nav-pillsv.show>.nav-link:hover{
+.navpills.nav-link:hover, .nav-pillsv.show>.nav-link:hover{
     background-color: mediumseagreen !important;
     color: black;
 
+}
+.t-apropos{
+    font-weight: 900;
+    font-family: fantasy;
+    letter-spacing: 6px;
+}
+.information{
+    font-weight: 900;
+    .sec{
+        color: rgb(10, 40, 73);
+        line-height: 35px;
+        letter-spacing: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .dev{
+        color: rgb(10, 40, 73);
+        line-height: 35px;
+        letter-spacing: 5px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+            
+    .inv{
+        color: rgb(10, 40, 73);
+        line-height: 35px;
+        letter-spacing: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.apropos-img{
+    .img-rounded{
+
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+   }
+} 
+
+.contact-img{
+    .img-rounded{
+        width: 90%;
+        height: 100%;
+   }
+}
+
+
+.dev-web{
+    background: rgb(110, 80, 170) !important;
+}
+.dev-mobil{
+    background: rgb(37, 93, 128) !important;
+}
+.market{
+    background: rgb(104, 49, 95) !important;
+    .card-header{
+        color: orange;
+    }
+}
+.securite{
+    background: rgb(57, 109, 51) !important;
+}
+.linux{
+    background: rgb(232, 240, 240) !important;
+}
+.sec-bur{
+    background: rgb(36, 73, 20) !important;
+}
+.sec-dec{
+    background: rgb(81, 75, 94) !important;
+}
+
+.dev-web:hover{
+    background: rgb(35, 43, 44) !important;
+    .card-title{
+        color: red !important;
+    }
+
+}
+.dev-mobil:hover{
+    background: rgb(104, 140, 145) !important;
+    .card-title{
+        color:#0d6efd !important;
+    }
+    .card-header{
+        color: aquamarine;
+    }
+    .card-text{
+        color: #fff;
+    }
+
+}
+.securite:hover{
+    background: rgb(12, 12, 12) !important;
+    .card-title{
+        color: #0d6efd !important;
+    } 
+    .card-header{
+        color: aquamarine;
+    }
+    .card-text{
+        color: #fff;
+    }
+    
+
+}
+.linux:hover{
+    background: rgb(130, 102, 61) !important;
+    .card-title{
+        color: red !important;
+    }
+    .card-header{
+        color: aliceblue;
+    }
+    .card-text{
+        color: bisque !important;
+    }
+   
+
+}
+.market:hover{
+    background: rgb(35, 43, 44) !important;
+    .card-title{
+        color: #0d6efd !important;
+    }
+    .card-header{
+        color: bisque;
+    }
+    .card-text{
+        color: coral;
+    }
+}
+.sec-dec:hover{
+    background: rgb(100, 112, 84) !important;
+    .card-title{
+        color: #0d6efd !important;
+    }
+    .card-header{
+        color: bisque;
+    }
+    .card-text{
+        color: rgb(255, 197, 80);
+    }
+}
+.sec-bur:hover{
+    background: rgb(99, 146, 109) !important;
+    .card-title{
+        color: #0d6efd !important;
+    }
+    .card-header{
+        color: bisque;
+    }
+    .card-text{
+        color: coral;
+    }
+}
+
+.dev-web .card-header{
+    color: blue !important;
+}
+
+.dev-web .card-text{
+    color: mediumseagreen !important;
 }
 
 
