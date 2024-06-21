@@ -238,6 +238,12 @@
     color: mediumseagreen !important;
 }
 
+.formulaire{
+    font-family: cursive;
+    font-weight: 900;
+    border-radius: 0 50px 50px 0;
+    box-shadow: 8px 7px 9px -6px rgb(103, 105, 104);
+}
 
 @media(max-width: 900px){
     .carousel-caption{
